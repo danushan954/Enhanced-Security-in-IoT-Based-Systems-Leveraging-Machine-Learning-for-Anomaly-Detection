@@ -98,55 +98,8 @@ All models are evaluated using a classification_report and a confusion_matrix. T
 
 The final results provide a clear picture of how each model's architecture interacts with the complexity of the classification task.
 
-6.1. Consolidated Performance Metrics
 
-The following table synthesizes the performance of all five models across the three datasets, using both overall accuracy and the more telling Macro F1-Score to assess performance.1
-Table: Consolidated Model Performance (Accuracy & Macro F1-Score)
-Model
-2-Class Accuracy
-2-Class Macro F1
-8-Class Accuracy
-8-Class Macro F1
-34-Class Accuracy
-34-Class Macro F1
-Random Forest
-0.99
-0.99
-0.91
-0.90
-0.97
-0.97
-Deep Neural Network
-0.99
-0.99
-0.73
-0.72
-0.73
-0.73
-Logistic Regression
-0.98
-0.98
-0.66
-0.62
-0.51
-0.47
-AdaBoost
-0.99
-0.99
-0.72
-0.66
-0.40
-0.33
-Perceptron
-0.97
-0.97
-0.58
-0.54
-0.46
-0.41
-
-
-6.2. Analysis and Key Takeaways
+6.1. Analysis and Key Takeaways
 
 The consolidated results reveal a compelling narrative about the suitability of different model architectures for problems of varying complexity. The progression from a simple binary task to a highly granular 34-class problem effectively stress-tests each model's capabilities.
 Overall Best Performer: Random Forest is the unequivocal top performer across the board. It achieves near-perfect scores on both the 2-class and 34-class tasks and maintains a very strong 0.90 Macro F1-Score on the 8-class problem. Its inherent ability to capture complex, non-linear relationships and interactions between features makes it exceptionally well-suited for this type of high-dimensional classification task.1
